@@ -11,11 +11,20 @@ Then...
 ```
 const examplePackage = require('my-example-package-bored-api');
 
-examplePackage.getActivity(2);
+examplePackage.getActivity();
+examplePackage.getActivityByParticipants(2);
+examplePackage.getActivityByPrice(0.1);
+
 ```
 
 # Options
 
-getActivity currently supports one optional parameter
+There are three supported functions: getActivity, getActivityByParticipants, getActivityByPrice
 
-* *participants* - _number_ (Defaults to 1)
+* getActivity takes no parameters and returns a random activity
+
+* getActivityByParticipants takes one optional parameter
+    * *participants* - _number_ (Defaults to 1)
+
+* getActivityByPrice takes one optional parameter
+    * *price* - _number_ 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, or 0.6 (Defaults to 0.0)
