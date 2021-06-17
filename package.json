@@ -1,6 +1,6 @@
 {
   "name": "my-example-package-bored-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a test package to experience creating a node package",
   "main": "lib/index",
   "typings": "lib/index",
