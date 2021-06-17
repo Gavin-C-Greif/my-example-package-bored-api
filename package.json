@@ -2,7 +2,8 @@
   "name": "my-example-package-bored-api",
   "version": "1.0.1",
   "description": "This is a test package to experience creating a node package",
-  "main": "lib/index.js",
+  "main": "lib/index",
+  "typings": "lib/index",
   "directories": {
     "lib": "lib"
   },
