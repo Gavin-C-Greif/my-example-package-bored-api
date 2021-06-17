@@ -23,8 +23,8 @@ There are three supported functions: getActivity, getActivityByParticipants, get
 
 * getActivity takes no parameters and returns a random activity
 
-* getActivityByParticipants takes one optional parameter
-    * *participants* - _number_ (Defaults to 1)
+* getActivityByParticipants takes one optional parameter and returns a random activity for the number of participants
+    * *participants* - _number_ - Max 5 (Defaults to 1)
 
-* getActivityByPrice takes one optional parameter
-    * *price* - _number_ 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, or 0.6 (Defaults to 0.0)
+* getActivityByPrice takes one optional parameter and returns a random activity for the price scale
+    * *price* - _number_ - 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, or 0.6 (Defaults to 0.0)
