@@ -17,7 +17,18 @@ examplePackage.getActivityByPrice(0.1);
 
 ```
 
-# Options
+OR
+
+You can instead import specific functions:
+```
+const { getActivityByParticipants, getActivityByPrice } = require('my-example-package-bored-api');
+
+getActivityByParticipants(2);
+getActivityByPrice(0.1);
+
+```
+
+# Functions
 
 There are three supported functions: getActivity, getActivityByParticipants, getActivityByPrice
 
