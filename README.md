@@ -11,5 +11,11 @@ Then...
 ```
 const examplePackage = require('my-example-package-bored-api');
 
-example.getActivity(2);
+examplePackage.getActivity(2);
 ```
+
+# Options
+
+getActivity currently supports one optional parameter
+
+* *participants* - _number_ (Defaults to 1)
