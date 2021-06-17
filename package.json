@@ -1,0 +1,22 @@
+{
+  "name": "my-example-package-bored-api",
+  "version": "1.0.0",
+  "description": "This is a test package to experience creating a node package",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gavin-C-Greif/my-example-package-bored-api.git"
+  },
+  "author": "Gavin C. Greif <gavincgreif@protonmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gavin-C-Greif/my-example-package-bored-api/issues"
+  },
+  "homepage": "https://github.com/Gavin-C-Greif/my-example-package-bored-api#readme"
+}
